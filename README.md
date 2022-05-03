@@ -1,2 +1,2 @@
 # Site_Sport
-Projet e programmation web avec alexis
+Projet de programmation web avec alexis
