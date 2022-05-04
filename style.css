@@ -13,10 +13,19 @@ body{
     top: 0;
 }
 #Nom_site{
-    color: white;
+    color: whitesmoke;
 }
-#feed_f1{
-    margin-left: 30%;
-    display: inline-block;
+#Feed_infos{
+    display: block;
+    margin: 0.5%;
+    width: fit-content;
 
+}
+#titre_infos{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.roll{
+    display: inline-block;
 }
