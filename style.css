@@ -1,0 +1,22 @@
+body{
+    background-color: dimgrey;
+    margin: 0;
+}
+#bandeau{
+    background-color: #141414;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    display: inline-block;
+    position: -webkit-sticky; /*Pour les trimards sous safari*/
+    position: sticky;
+    top: 0;
+}
+#Nom_site{
+    color: white;
+}
+#feed_f1{
+    margin-left: 30%;
+    display: inline-block;
+
+}
