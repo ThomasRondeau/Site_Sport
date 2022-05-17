@@ -15,17 +15,31 @@ body{
 #Nom_site{
     color: whitesmoke;
 }
+#Bloc_twitter{
+    display: flex;
+}
 #Feed_infos{
-    display: block;
     margin: 0.5%;
     width: fit-content;
-
 }
 #titre_infos{
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
 }
-.roll{
-    display: inline-block;
+
+#cloison{
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    height: 700px;
+    width: 10px;
+    top: 120px;
+}
+#Feed_ecuries{
+    margin: 0.5%;
+    width: fit-content;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
 }
