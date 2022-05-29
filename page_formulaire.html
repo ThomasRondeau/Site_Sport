@@ -9,36 +9,38 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div id="bandeau"><h1 id="Nom_site">Sports News</h1></div>
-        <div id="redirection">
-            <p><a href=pagebasket.html>Basket</a></p>
-            <p><a href="pagef1.html">Formule 1</a></p>
-            <p><a href="pagefoot.html">Foot</a></p>
-        </div>
-    </header>
-
-    <form action="" method="get" name="Contact" id="formulaire">
-        <div class="formulaire">
-          <label for="name">Entrez votre nom: </label>
-          <input type="text" name="name" required>
-        </div>
-        <div class="formulaire">
-          <label for="email">Entrez votre mail: </label>
-          <input type="email" name="email" required>
-        </div>
-        <div class="formulaire">
-            <label for="email">Entrez votre demande: </label>
-            <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Donner votre avis ici"></textarea>
+  <div id="main">
+      <header>
+          <div id="bandeau"><h1 id="Nom_site">Sports News</h1></div>
+          <div id="redirection">
+              <p><a href=index.html>Accueil</a></p>
+              <p><a href=pagebasket.html>Basket</a></p>
+              <p><a href="pagef1.html">Formule 1</a></p>
+              <p><a href="pagefoot.html">Foot</a></p>
           </div>
-        <div class="formulaire">
-          <input type="submit" value="Envoyer" id="envoie">
-        </div>
-    </form>
-    <footer>
-        <a href="a_propos.html">A propos de nous</a>
-        <a href="page_formulaire.html">Nous contacter</a>
-    </footer>
-    
+      </header>
+
+      <form action="" method="get" name="Contact" id="formulaire">
+          <div class="formulaire">
+            <label for="name">Entrez votre nom: </label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="formulaire">
+            <label for="email">Entrez votre mail: </label>
+            <input type="text" name="email" required>
+          </div>
+          <div class="formulaire">
+              <label for="email">Entrez votre demande: </label>
+              <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Donner votre avis ici"></textarea>
+            </div>
+          <div class="formulaire">
+            <input type="submit" value="Envoyer" id="envoie" onclick=afficher()>
+          </div>
+      </form>
+      <footer>
+          <a href="a_propos.html">A propos de nous</a>
+          <a href="page_formulaire.html">Nous contacter</a>
+      </footer>
+  </div>
 </body>
 </html>

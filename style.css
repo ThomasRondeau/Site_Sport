@@ -5,6 +5,30 @@ body{
 body, html{
     height:100%;
 }
+p > img{
+    position: relative;
+    top : 4px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+#apropos{
+    display: block;
+    font-size: 1.5em;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#main{
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}
 #bandeau{
     background-color: #141414;
     text-align: center;
@@ -29,7 +53,7 @@ a{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 35px;
 }
 #redirection > p{
     margin-left: 5%;
@@ -43,8 +67,14 @@ a{
 }
 #Bloc_twitter{
     display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 70px;
 }
 #Feed_infos{
+    border-radius: 10px;
+    background-color: rgb(128, 128, 128);
+    padding: 0px 10px 0px;
     margin: 0.5%;
     width: fit-content;
 }
@@ -53,14 +83,11 @@ a{
     color: whitesmoke;
     font-size: 30px;
 }
-#cloison{
-    position: relative;
-    background-color: rgb(41, 41, 41);
-    height: 700px;
-    width: 10px;
-    top: 120px;
-}
+
 #Feed_ecuries{
+    border-radius: 10px;
+    background-color: rgb(128, 128, 128);
+    padding: 0px 10px 0px;
     margin: 0.5%;
     width: fit-content;
 }
@@ -108,4 +135,24 @@ footer{
 
 footer > a{
     padding: 1em;
+}
+#corps_accueil{
+    text-align: center;
+    color: whitesmoke;
+}
+#images_redir{
+    margin-top: 3.5%;
+    justify-content: space-around;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a>img{
+    display: block;
+    width: 600px;
+}
+
+#h1{
+    font-size: 3em;
 }
