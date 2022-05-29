@@ -63,3 +63,24 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+#formulaire{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 1.5em;
+}
+
+#commentaire{
+    height: 5em;
+    font-size: 2em;
+}
+
+#envoie{
+    font-size: 1em;
+}
