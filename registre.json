@@ -1,23 +1,23 @@
 [
     {
         "nom" : "basket",
-        "value1" : "https://twitter.com/celtics?ref_src=twsrc%5Etfw",
-        "value2" : "https://twitter.com/nuggets?ref_src=twsrc%5Etfw",
-        "value3" : "https://twitter.com/chicagobulls?ref_src=twsrc%5Etfw",
-        "value4" : "https://twitter.com/DetroitPistons?ref_src=twsrc%5Etfw"
+        "1" : "https://twitter.com/celtics?ref_src=twsrc%5Etfw",
+        "2" : "https://twitter.com/nuggets?ref_src=twsrc%5Etfw",
+        "3" : "https://twitter.com/chicagobulls?ref_src=twsrc%5Etfw",
+        "4" : "https://twitter.com/DetroitPistons?ref_src=twsrc%5Etfw"
     },
     {
         "nom" : "formule1",
-        "value1" : "https://twitter.com/ScuderiaFerrari?ref_src=twsrc%5Etfw",
-        "value2" : "https://twitter.com/MercedesAMGF1?ref_src=twsrc%5Etfw",
-        "value3" : "https://twitter.com/McLarenF1?ref_src=twsrc%5Etfw",
-        "value4" : "https://twitter.com/AstonMartinF1?ref_src=twsrc%5Etfw"
+        "1" : "https://twitter.com/ScuderiaFerrari?ref_src=twsrc%5Etfw",
+        "2" : "https://twitter.com/MercedesAMGF1?ref_src=twsrc%5Etfw",
+        "3" : "https://twitter.com/McLarenF1?ref_src=twsrc%5Etfw",
+        "4" : "https://twitter.com/AstonMartinF1?ref_src=twsrc%5Etfw"
     },
     {
         "nom" : "foot",
-        "value1" : "https://twitter.com/FCBarcelona?ref_src=twsrc%5Etfw",
-        "value2" : "https://twitter.com/realmadriden?ref_src=twsrc%5Etfw",
-        "value3" : "https://twitter.com/FCBayernEN?ref_src=twsrc%5Etfw",
-        "value4" : "https://twitter.com/ManUtd?ref_src=twsrc%5Etfw"
+        "1" : "https://twitter.com/FCBarcelona?ref_src=twsrc%5Etfw",
+        "2" : "https://twitter.com/realmadriden?ref_src=twsrc%5Etfw",
+        "3" : "https://twitter.com/FCBayernEN?ref_src=twsrc%5Etfw",
+        "4" : "https://twitter.com/ManUtd?ref_src=twsrc%5Etfw"
     }
 ]

@@ -82,6 +82,7 @@ a{
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
+    margin-bottom: 0.5em;
 }
 
 #Feed_ecuries{
@@ -155,4 +156,11 @@ a>img{
 
 #h1{
     font-size: 3em;
+}
+
+.bouton{
+    border-radius: 10px;
+    background-color: white;
+    color: #141414;
+    margin-bottom: 0.3em;
 }
