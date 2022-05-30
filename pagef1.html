@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports News</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div id="main">
@@ -32,11 +31,11 @@
             <div id="Feed_ecuries">
                 <h2 id="titre_infos">Informations des équipes</h2>
                 <button id="bouton_f1" class="bouton">Changer les équipes</button>
-                <div>
+                <div id="changement">
                     <a class="twitter-timeline" id="feed1_f1" data-lang="fr" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/AlpineF1Team?ref_src=twsrc%5Etfw">Tweets by AlpineF1Team</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" id="script_twitter1"></script>
                     <a class="twitter-timeline" id="feed2_f1" data-lang="fr" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/redbullracing?ref_src=twsrc%5Etfw">Tweets by redbullracing</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" id="script_twitter2"></script>
                 </div>
             </div>
         </div>
@@ -46,4 +45,5 @@
         </footer>
     </div>
 </body>
+<script type="text/javascript" src="scriptf1.js"></script>
 </html>

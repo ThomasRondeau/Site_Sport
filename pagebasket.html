@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports News</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div id="main">
@@ -31,12 +30,12 @@
             </div>
             <div id="Feed_ecuries">
                 <h2 id="titre_infos">Informations des équipes</h2>
-                <button id="bouton_basket">Changer les équipes</button>
-                <div>
+                <button id="bouton_basket" class="bouton">Changer les équipes</button>
+                <div id="changement">
                     <a id="feed1_basket" class="twitter-timeline" data-lang="fr" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/warriors?ref_src=twsrc%5Etfw">Tweets by warriors</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" id="script_twitter1"></script>
                     <a id="feed2_basket"class="twitter-timeline" data-lang="fr" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/Lakers?ref_src=twsrc%5Etfw">Tweets by warriors</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" id="script_twitter2"></script>
                 </div>
             </div>
         </div>
@@ -45,5 +44,6 @@
             <a href="page_formulaire.html">Nous contacter</a>
         </footer>
     </div>
+    <script type="text/javascript" src="scriptbasket.js"></script>
 </body>
 </html>
