@@ -1,22 +1,18 @@
 function afficher(){
     window.alert("Votre message a bien été envoyé");
 }
-/*
+
 var indices = [1,1,1]
 var feed1 = document.querySelector("feed1");
 var feed2 = document.querySelector("feed2");
 const bouton_basket = document.getElementById("bouton_basket");
 const bouton_f1 = document.getElementById("bouton_f1");
 const bouton_foot = document.getElementById("bouton_foot");
-*/
-window.onload = function(){
-var bouton_basket = document.getElementById("bouton_basket")
-bouton_basket.addEventListener("click", console.log("coucou"))
-}
 
-/*
+
+
+
 bouton_basket.onclick = () => {
-    console.log("ca marche")
     if(indices[0]<4){
         fetch("registre.json")
         .then(response => {
@@ -61,5 +57,5 @@ bouton_foot.onclick = () => {
     }
 }
 
-*/
+
 
